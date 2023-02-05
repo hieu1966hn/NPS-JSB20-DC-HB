@@ -10,3 +10,19 @@
 8. Khánh Dương
 
 - Bài tập classin => Giúp các em ôn tập kiến thức mở rộng tính sáng tạo.
+
+- Buổi 2:
+  Display:
+
+1. inline
+2. block
+3. inline-block
+
+Margin: 10px 5px 7px 20px
+=> top right bottom left
+Padding: 10px 20px
+=> trên/dưới trái/phải
+margin: 50px => Cách đều nhau 50px 4 hướng
+
+- Buổi 3:
+  Display: flex (Linh hoạt)
