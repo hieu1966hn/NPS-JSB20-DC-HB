@@ -111,7 +111,7 @@ html {
 }
 
 .lorem {
-  width: 60%;
+  width: 100%;
   margin: auto;
   text-align: justify;
 }
@@ -120,6 +120,60 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  width: 60%;
+  margin: auto;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 400;
+  margin: 10px 0px;
+  /* margin: 10px 0px 10px 0px; */
+}
+
+.wide {
+  letter-spacing: 4px;
+}
+
+.opacity {
+  opacity: 0.6;
+}
+
+p {
+  margin: 10px 10px;
+}
+
+.w3-input {
+  width: 100%;
+  padding: 8px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+
+}
+
+.w3-button {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  text-decoration: none;
+  color: white;
+  background-color: black;
+
+}
+
+.w3-button:hover {
+  color: black;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+form .w3-button {
+  margin: 20px 0px;
+}
+
+.container {
   width: 60%;
   margin: auto;
 }
