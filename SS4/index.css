@@ -177,3 +177,11 @@ form .w3-button {
   width: 60%;
   margin: auto;
 }
+
+.powered {
+  color: black;
+}
+
+.powered a {
+  color: rgb(16, 101, 101);
+}
