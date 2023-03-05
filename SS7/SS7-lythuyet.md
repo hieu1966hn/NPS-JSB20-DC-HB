@@ -22,3 +22,19 @@ Kiến thức buổi 7:
 - Đã học về Viết nội dung với HTML
 - Đã học về Xây dựng bố cục, màu sắc,.... với CSS
 - Học về ngôn ngữ lập trình bậc cao: Javascript => Xử lý tính năng (Đăng nhập/ đăng ký,..)
+
+Javascript
+
+- Biến/ khai báo biến
+- Kiểu dữ liệu (6 kiểu)
+
+1. Number: 1,3,5, 3.5, .....
+2. Boolean: 1>2, 2<1 => true/false
+3. String: 'Đây là chuỗi', "Đây là chuỗi 2", `Đây là chuỗi 3`
+4. Null: null
+5. undefinded: khi khai báo biến
+6. Object: Đối tượng {key: value;}
+
+- Toán tử so sánh: >,<,>=,<=, ==, ===
+
+- Câu lệnh: console.log(); in ra màn hình console

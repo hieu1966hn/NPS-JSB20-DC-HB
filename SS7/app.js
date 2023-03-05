@@ -51,3 +51,46 @@ const PI = 3.14;
 console.log(1 == "1"); // true vì: == chỉ so sánh về giá trị
 console.log(1 === "1"); // false vì: === so sánh về giá trị và kiểu dữ liệu
 
+
+
+// Câu điều kiện
+/*
+Cú pháp: 
+if(điều kiện: true/false){
+  // Điều kiện đúng => thực hiện câu lệnh trong này...
+}
+else{
+  // Điều kiện sai => thực hiện câu lệnh trong này...
+}
+*/
+
+// if (2 < 1) {
+//   console.log("Đúng");
+// }
+// else{
+//   console.log("Sai");
+// }
+
+/*
+Toán tử logic: 
+- &&: Tất cả điều kiện phải đúng
+- ||: Chỉ cần 1 điều kiện đúng
+*/
+
+
+/*
+Bài toán: Kiểm tra điều kiện dầu vào học sinh và xếp loại học lực như sau
++ 10  -> 8.5: Giỏi
++ 8.5 -> 6.5: Khá
++ 6.5 -> 5.0: Trung bình 
++ 5.0 -> 3.0: Kém
++ 3.0 -> 0: Liệt
+*/
+
+let diem = 8.9; // có thể thay đổi để test thuật toán
+if (diem <= 10 && diem >= 8.5) { // Cả 2 điều kiện đồng thời đúng
+  console.log("Giỏi");
+}
+
+
+
