@@ -87,9 +87,21 @@ Bài toán: Kiểm tra điều kiện dầu vào học sinh và xếp loại h�
 + 3.0 -> 0: Liệt
 */
 
-let diem = 8.9; // có thể thay đổi để test thuật toán
+let diem = 4; // có thể thay đổi để test thuật toán
 if (diem <= 10 && diem >= 8.5) { // Cả 2 điều kiện đồng thời đúng
   console.log("Giỏi");
+}
+else if (diem < 8.5 && diem >= 6.5) { // điều kiện con
+  console.log("Khá");
+}
+else if (diem < 6.5 && diem >= 5) {
+  console.log("Trung Bình");
+}
+else if (diem < 5 && diem >= 3) {
+  console.log("Kém");
+}
+else {
+  console.log("Liệt");
 }
 
 
